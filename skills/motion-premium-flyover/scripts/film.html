@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Flyover film</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@500;600&family=Instrument+Serif:ital@1&display=block" rel="stylesheet">
+<style>
+  html, body { margin: 0; background: #f9fbfb; overflow: hidden; }
+  #stage { position: relative; width: 1440px; height: 1152px; overflow: hidden; }
+  canvas { position: absolute; inset: 0; width: 1440px; height: 1152px; }
+  #title { position: absolute; inset: 0; pointer-events: none; }
+  .badge { position: absolute; top: 44px; left: 50%; display: flex; align-items: center; gap: 10px;
+    height: 46px; padding: 0 20px 0 9px; border-radius: 999px; background: #fff; opacity: 0;
+    box-shadow: 0 0 0 1px rgba(16,24,40,.05), 0 1px 2px rgba(16,24,40,.06), 0 10px 28px -6px rgba(16,24,40,.12);
+    font: 600 21px/1 Geist, system-ui, sans-serif; letter-spacing: -.01em; color: #121317; white-space: nowrap; }
+  .badge img, .badge .mark { width: 30px; height: 30px; border-radius: 9px; object-fit: contain; }
+  .line { position: absolute; left: 0; right: 0; text-align: center; white-space: nowrap; }
+  .l1 { top: 104px; font: 500 74px/1 Geist, system-ui, sans-serif; letter-spacing: -.035em; color: #121317; }
+  .l2 { top: 180px; font: italic 400 82px/1 'Instrument Serif', Georgia, serif; letter-spacing: -.01em; color: #8b8b92; }
+  .w { display: inline-block; opacity: 0; white-space: pre; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="c" width="1440" height="1152"></canvas>
+  <div id="title">
+    <div class="badge" id="badge"></div>
+    <div class="line l1" id="l1"></div>
+    <div class="line l2" id="l2"></div>
+  </div>
+</div>
+<script type="module" src="film.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "motion-premium-flyover",
+  "version": "1.0.0",
+  "description": "Premium 3D motion-design fly-over film of a landing page, directed by Claude: one continuous camera, razor-thin depth of field, 60 fps. Also rebuilds a reference video shot for shot.",
+  "author": { "name": "Steven KOULO", "url": "https://github.com/stvekoulo" },
+  "homepage": "https://github.com/stvekoulo/motion-premium-flyover",
+  "repository": "https://github.com/stvekoulo/motion-premium-flyover",
+  "license": "MIT",
+  "keywords": ["motion-design", "video", "landing-page", "fly-over", "launch-film", "webgl"]
+}

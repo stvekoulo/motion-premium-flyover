@@ -1,0 +1,19 @@
+{
+  "name": "stvekoulo",
+  "owner": {
+    "name": "Steven KOULO",
+    "url": "https://github.com/stvekoulo"
+  },
+  "metadata": {
+    "description": "Claude Code skills for premium motion design by Steven KOULO."
+  },
+  "plugins": [
+    {
+      "name": "motion-premium-flyover",
+      "source": "./",
+      "description": "Premium 3D motion-design fly-over film of a landing page, directed by Claude.",
+      "version": "1.0.0",
+      "category": "design"
+    }
+  ]
+}

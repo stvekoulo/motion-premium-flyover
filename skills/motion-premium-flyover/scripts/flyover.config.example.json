@@ -1,0 +1,12 @@
+{
+  "url": "https://example.com",
+  "brand": "Kora",
+  "logo": "logo.svg",
+  "line1": "Learn to code with mentors who ship.",
+  "tail": "Starting this autumn.",
+  "track": null,
+  "trackHit": null,
+  "layers": { "auto": true, "include": [], "exclude": [], "max": 48 },
+  "choreo": {},
+  "timing": {}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "flyover-film",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node capture.mjs",
+    "stills": "node stills.mjs",
+    "preview": "node render.mjs --preview",
+    "check": "node check.mjs",
+    "render": "node render.mjs",
+    "audio": "node audio.mjs"
+  },
+  "dependencies": { "playwright": "^1.56.0" }
+}

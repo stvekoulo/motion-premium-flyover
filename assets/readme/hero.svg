@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">motion-premium-flyover</title>
+  <desc id="desc">A Claude Code skill that turns a landing page into a 14.5 second premium fly-over film. Beside the title, the camera path: it glides down the page, rises overhead at 9.3 s and dives into the hero, which lands as a card at 11 s.</desc>
+
+  <defs>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9fbfb"/>
+      <stop offset="1" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="26" fill="url(#floor)"/>
+
+  <g id="title-block" transform="translate(64 0)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="0" y="92" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2" fill="#8b8b92">CLAUDE CODE SKILL · MOTION DESIGN</text>
+    <text x="0" y="158" font-size="52" font-weight="700" letter-spacing="-1.5" fill="#121317">motion-premium-flyover</text>
+    <text x="0" y="222" font-size="34" font-weight="500" letter-spacing="-0.5" fill="#121317">Your landing page, as a launch film.</text>
+    <text x="0" y="266" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34" fill="#8b8b92">Directed by Claude.</text>
+    <text x="0" y="346" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#5d5f66">14.5 s · 1440×1152 · 60 fps · one camera, no cuts</text>
+  </g>
+
+  <g id="camera-path" transform="translate(790 0)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <!-- the page, seen from the side of the camera: hero on top, footer at the bottom -->
+    <g id="page">
+      <rect x="0" y="52" width="150" height="320" rx="10" fill="#ffffff" stroke="#d9dbe1" stroke-width="2"/>
+      <rect x="14" y="68" width="74" height="10" rx="5" fill="#121317"/>
+      <rect x="14" y="86" width="52" height="8" rx="4" fill="#b8bac1"/>
+      <rect x="100" y="66" width="36" height="58" rx="8" fill="none" stroke="#121317" stroke-width="3"/>
+      <rect x="14" y="140" width="38" height="30" rx="5" fill="#f0a08a"/>
+      <rect x="56" y="140" width="38" height="30" rx="5" fill="#7fa7e8"/>
+      <rect x="98" y="140" width="38" height="30" rx="5" fill="#8fcf9f"/>
+      <rect x="22" y="196" width="106" height="40" rx="7" fill="#ffffff" stroke="#d9dbe1" stroke-width="2"/>
+      <rect x="14" y="258" width="58" height="44" rx="6" fill="#ffffff" stroke="#d9dbe1" stroke-width="2"/>
+      <rect x="78" y="258" width="58" height="44" rx="6" fill="#121317"/>
+      <rect x="0" y="322" width="150" height="50" rx="10" fill="#121317"/>
+    </g>
+
+    <!-- one continuous camera: down the page, up overhead, then the dive into the hero -->
+    <path d="M -24 86 L -24 300 C -24 425, 300 425, 310 290 C 318 200, 316 120, 290 80 C 262 40, 200 52, 162 92"
+          fill="none" stroke="#121317" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+    <path d="M 177.5 87.3 L 162 92 L 165.9 76.3" fill="none" stroke="#121317" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="-24" cy="86" r="7" fill="#e4572e"/>
+    <text x="-40" y="93" font-size="20" fill="#121317" text-anchor="end">0 s</text>
+    <circle cx="-24" cy="214" r="6" fill="#121317"/>
+    <text x="-40" y="221" font-size="20" fill="#121317" text-anchor="end">5 s</text>
+    <circle cx="314" cy="214" r="6" fill="#121317"/>
+    <text x="298" y="256" font-size="20" fill="#121317" text-anchor="end">9.3 s</text>
+    <text x="298" y="278" font-size="18" fill="#8b8b92" text-anchor="end">overhead</text>
+    <text x="172" y="130" font-size="20" fill="#121317">11 s</text>
+    <text x="172" y="152" font-size="18" fill="#8b8b92">hero card</text>
+  </g>
+</svg>
